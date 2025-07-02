@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.topo{
+    background-image: url('img4/pizza1.jpg');
+    background-position: center;
+    display: grid;
+    background-size: cover;
+    height: 500px;
+    zoom: unset;
+    text-align: center;
+    position: relative;
+}
+.topo-meio{
+    color: white;
+    position: absolute;
+    text-shadow: 2px 2px 5px silver;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.sabores{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.item{
+    border-radius: 10px;
+    background-color: lightgray;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+.item-nome{
+    background-color: lightblue;
+    font-size: 20px;
+}
+.item-img{  
+    height: 50%;
+    background-image: url('img4/pizza2.jpg');
+    background-size: 100%;
+    background-position: center;
+}
+.item-ingredientes{
+    background-color: lightpink;
+}
+
+.sobre-nos{
+    display:grid;
+    background-image: url('img4/pizza3.jpg');
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+    position:relative;
+}
+.sobre-nos-meio{
+    color:white;
+    text-align: center;
+    text-shadow: 2px 2px 5px silver;
+    position: relative;
+    top: 40%;
+}
+
+.contato{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.contato div{
+    margin: 20px;
+    padding: 10px;
+
+}
+
+button {
+   border-radius: 10px;
+   padding: 5px;
+   background-color: goldenrod;
+   color: white;
+   border-color: white;
+
+}
+button:hover{
+    color: black;
+    border-color: black;
+
+}

@@ -1,0 +1,26 @@
+a{
+    color: #248030;
+}
+
+section{
+    border-radius: 5px;
+}
+
+button{
+    background-color: #248030;
+    border-radius: 5px;
+}
+
+#rodape{
+    background-color: aliceblue;
+
+}
+
+#meio{
+    background-color: #ffff8c;
+}
+
+#topo{
+    background-color: #248030;
+    color: white;
+}

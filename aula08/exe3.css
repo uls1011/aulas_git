@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    line-height: 1.5;
+}
+.titulo{
+    font: 24px bold;
+}
+.txt1{
+    font: 18px bold;
+}
+.txt2{
+    font-size: 10px;
+}
+button{
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    border: none;
+    font-size: 12px;
+}
+.btn1{
+    background-color: black;
+}
+.btn1:hover{
+    background-color: dimgray;
+}
+.btn2{
+    background-color: skyblue;  
+}
+.btn2:hover{
+    background-color: cornflowerblue;
+}
+

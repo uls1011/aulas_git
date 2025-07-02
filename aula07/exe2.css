@@ -1,0 +1,36 @@
+article{
+    background-color: black;
+    color: white;
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+
+}
+div{
+    background-color: white;
+    column-span: 5px;
+    border-radius: 5px;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+}
+body{
+    background-color: black;
+}
+article:hover{
+    border: 2px solid blue;
+
+}
+.hidden{
+    display: none; /*desaparece*/
+}
+.selected{
+    background-color: #363338;
+    border: 2px solid #0088d8;
+}
